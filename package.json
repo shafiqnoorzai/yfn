@@ -1,0 +1,19 @@
+{
+  "name": "yfn-home-page",
+  "version": "1.0.0",
+  "description": "YFN Home Page - Personal Home Page in HTML",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ./src",
+    "dev": "npx live-server ./src --port=3000",
+    "build": "echo 'Build completed'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": ["html", "css", "javascript", "website"],
+  "author": "YFN",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  }
+}
