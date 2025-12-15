@@ -1,0 +1,60 @@
+/* Navigation menu styles */
+.nav-menu {
+    list-style: none;
+}
+
+.nav-menu a {
+    display: block;
+    padding: 12px 15px;
+    color: #000000;
+    font-size: 12pt;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.nav-menu li {
+    border-radius: 4px;
+    margin: 2px;
+}
+
+.nav-menu li:hover {
+    background-color: #282828;
+}
+
+.nav-menu li:hover a {
+    color: #FFFFFF !important;
+}
+
+.hamburger {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #000000;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-toggle {
+    background: #E5E5E5;
+    border: 1px solid #A0A0A0;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.nav-toggle:focus {
+    outline: 2px solid #5D5D9E;
+}
+
+/* Mobile menu toggle animation */
+.nav-toggle.active .hamburger:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.nav-toggle.active .hamburger:nth-child(2) {
+    opacity: 0;
+}
+
+.nav-toggle.active .hamburger:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+}
